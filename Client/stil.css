@@ -1,0 +1,60 @@
+.GlavniKontejner {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.Zaglavlje {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.Grafik {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    align-items: flex-start;
+}
+
+.stub {
+    width: 25px;
+}
+
+.stubic {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+}
+
+.vrednosti {
+    display: flex;
+    flex-direction: column;
+}
+
+.Naslov {
+    display: flex;
+    flex-direction: column;
+}
+
+.podeoci {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.podeok {
+    display: flex;
+    flex-direction: column;
+}
+
+.labPodeok {
+    text-align: right;
+}
